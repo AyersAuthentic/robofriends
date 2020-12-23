@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Card from './Card.js';
 import CardList from './CardList.js';
+import App from './App.js'
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
 import {robots} from './robots.js'
 
 ReactDOM.render(
-  <CardList robots={robots}/>,
+  <App />,
   document.getElementById('root')
 );
 
