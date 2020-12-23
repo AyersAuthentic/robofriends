@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './Card.js';
-import CardList from './CardList.js';
-import App from './App.js'
+// import Card from './Card.js';
+// import CardList from './CardList.js';
+import App from './containers/App.js'
 import reportWebVitals from './reportWebVitals';
 import 'tachyons'
-import {robots} from './robots.js'
+// import {robots} from './robots.js'
 
 ReactDOM.render(
   <App />,
